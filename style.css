@@ -160,4 +160,55 @@
   background-color: #fcfcfc;
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
+}
+.main .wrap .col-2 .row-1 {
+  width: 90%;
+  margin: 0 auto;
+}
+.main .wrap .col-2 .row-1 .title {
+  display: flex;
+  align-items: center;
+  color: #3f4442;
+  border-bottom: #3f4442 2px solid;
+  margin: 30px 0px 20px 0px;
+}
+.main .wrap .col-2 .row-1 .title .material-symbols-outlined {
+  margin-right: 20px;
+  color: #59c7e8;
+  font-size: 40px;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 28;
+}
+.main .wrap .col-2 .row-1 .title h1 {
+  font-size: 30px;
+}
+.main .wrap .col-2 .row-1 .description {
+  letter-spacing: 0.4px;
+  line-height: 23px;
+  opacity: 0.7;
+}
+.main .wrap .col-2 .row-1 .description ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main .wrap .col-2 .row-1 .description ul li {
+  display: flex;
+  flex-direction: column;
+}
+.main .wrap .col-2 .row-1 .description ul li .title {
+  border: none;
+  font-size: 17px;
+  margin: 10px;
+}
+.main .wrap .col-2 .row-1 .description ul li .title a {
+  color: #3f4442;
+  font-weight: bolder;
+}
+.main .wrap .col-2 .row-1 .description ul li .about {
+  font-weight: bolder;
+}
+.main .wrap .col-2 .row-1 .description ul li p {
+  color: black;
+  margin-left: 15px;
+  font-weight: lighter;
 }/*# sourceMappingURL=style.css.map */
