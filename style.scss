@@ -3,9 +3,8 @@
 // font-family: 'Poppins', sans-serif;
 
 .main {
-    max-width: 1440px;
+    max-width: 100%;
     height: max-content;
-    padding: 15px 30px 15px 30px;
     font-family: 'Poppins', sans-serif;
 
     .wrap {
@@ -18,7 +17,6 @@
 
         .col-1 {
             width: 50%;
-            height: 100%;
 
             .row-1 {
                 width: 100%;
@@ -171,7 +169,8 @@
                             margin-left: 10px;
 
                             li {
-                                padding: 10px;
+                                // padding: 10px;
+                                line-height: 40px;
                             }
                         }
                     }
@@ -199,7 +198,7 @@
 
                     .material-symbols-outlined {
                         margin-right: 20px;
-                        color: #59c7e8;
+                        color: #3f4442;
                         font-size: 40px;
                         font-variation-settings:
                             'FILL'1,
@@ -215,13 +214,11 @@
 
                 .description {
                     letter-spacing: 0.4px;
-                    line-height: 23px;
-                    opacity: 0.7;
+                    line-height: 25px;
+                    display: flex;
+                    flex-direction: column;
 
                     ul {
-                        display: flex;
-                        align-items: center;
-                        flex-direction: column;
 
                         li {
                             display: flex;
@@ -235,11 +232,13 @@
                                 a {
                                     color: #3f4442;
                                     font-weight: bolder;
+                                    opacity: 0.7;
                                 }
                             }
 
                             .about {
                                 font-weight: bolder;
+                                color: #59c7e8;
                             }
 
                             p {
@@ -249,6 +248,11 @@
                             }
 
                         }
+                    }
+
+                    a {
+                        color: #3f4442;
+                        opacity: 0.7;
                     }
                 }
             }
