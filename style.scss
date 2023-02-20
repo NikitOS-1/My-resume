@@ -10,7 +10,7 @@
 
     .wrap {
         max-width: 1000px;
-        height: 1280px;
+        height: max-content;
         margin: 0 auto;
         display: flex;
         border: 2px solid #b4b3b2;
@@ -39,10 +39,15 @@
 
                 .name-proffesion {
                     h1 {
+                        font-weight: 800;
+                        color: #3f4442;
+                        text-align: center;
                         font-size: 32px;
                     }
 
                     p {
+                        font-weight: 800;
+                        color: #3f4442;
                         text-align: center;
                         font-size: 18px;
                     }
@@ -54,6 +59,120 @@
                 height: 75%;
                 background-color: #3f4442;
                 border-bottom-left-radius: 18px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                .wrap-contact {
+                    display: flex;
+                    flex-direction: column;
+                    width: 80%;
+                    height: max-content;
+
+                    .title {
+                        margin-top: 40px;
+                        display: flex;
+                        align-items: center;
+                        color: #fcfcfc;
+                        padding: 10px;
+                        border-bottom: 2px solid #fcfcfc;
+                        letter-spacing: 3px;
+
+                        .material-symbols-outlined {
+                            margin-right: 20px;
+                            color: #59c7e8;
+                            font-variation-settings:
+                                'FILL'1,
+                                'wght'800,
+                                'GRAD'0,
+                                'opsz'55
+                        }
+
+                    }
+
+                    .description {
+                        list-style: none;
+                        padding: 10px;
+
+                        ul {
+                            display: flex;
+                            flex-direction: column;
+
+                            li {
+                                margin: 7px;
+                                display: flex;
+                                align-items: center;
+
+                                p {
+                                    color: #fcfcfc;
+                                    opacity: 0.8;
+                                }
+
+                                a {
+                                    color: #fcfcfc;
+                                    opacity: 0.8;
+                                }
+
+                                .material-symbols-outlined {
+                                    margin-right: 20px;
+                                    color: #fcfcfc;
+                                    font-variation-settings:
+                                        'FILL'0,
+                                        'wght'400,
+                                        'GRAD'0,
+                                        'opsz'48
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .wrap-tech-skills,
+                .wrap-soft-skills,
+                .wrap-language-skills {
+                    display: flex;
+                    flex-direction: column;
+                    width: 80%;
+                    height: max-content;
+
+                    .title {
+                        margin-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        color: #fcfcfc;
+                        padding: 10px;
+                        border-bottom: 2px solid #fcfcfc;
+                        letter-spacing: 3px;
+
+                        .material-symbols-outlined {
+                            margin-right: 20px;
+                            color: #59c7e8;
+                            font-variation-settings:
+                                'FILL'1,
+                                'wght'800,
+                                'GRAD'0,
+                                'opsz'55
+                        }
+
+                    }
+
+                    .description {
+                        padding: 10px;
+
+                        ul {
+                            font-size: 15px;
+                            display: flex;
+                            flex-direction: column;
+                            color: #fcfcfc;
+                            list-style: disc;
+                            margin-left: 10px;
+
+                            li {
+                                padding: 10px;
+                            }
+                        }
+                    }
+                }
             }
         }
 

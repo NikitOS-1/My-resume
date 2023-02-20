@@ -8,7 +8,8 @@
 }
 .main .wrap {
   max-width: 1000px;
-  height: 1280px;
+  height: -moz-max-content;
+  height: max-content;
   margin: 0 auto;
   display: flex;
   border: 2px solid #b4b3b2;
@@ -35,9 +36,14 @@
   border-radius: 50%;
 }
 .main .wrap .col-1 .row-1 .name-proffesion h1 {
+  font-weight: 800;
+  color: #3f4442;
+  text-align: center;
   font-size: 32px;
 }
 .main .wrap .col-1 .row-1 .name-proffesion p {
+  font-weight: 800;
+  color: #3f4442;
   text-align: center;
   font-size: 18px;
 }
@@ -46,6 +52,103 @@
   height: 75%;
   background-color: #3f4442;
   border-bottom-left-radius: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main .wrap .col-1 .row-2 .wrap-contact {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.main .wrap .col-1 .row-2 .wrap-contact .title {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  color: #fcfcfc;
+  padding: 10px;
+  border-bottom: 2px solid #fcfcfc;
+  letter-spacing: 3px;
+}
+.main .wrap .col-1 .row-2 .wrap-contact .title .material-symbols-outlined {
+  margin-right: 20px;
+  color: #59c7e8;
+  font-variation-settings: "FILL" 1, "wght" 800, "GRAD" 0, "opsz" 55;
+}
+.main .wrap .col-1 .row-2 .wrap-contact .description {
+  list-style: none;
+  padding: 10px;
+}
+.main .wrap .col-1 .row-2 .wrap-contact .description ul {
+  display: flex;
+  flex-direction: column;
+}
+.main .wrap .col-1 .row-2 .wrap-contact .description ul li {
+  margin: 7px;
+  display: flex;
+  align-items: center;
+}
+.main .wrap .col-1 .row-2 .wrap-contact .description ul li p {
+  color: #fcfcfc;
+  opacity: 0.8;
+}
+.main .wrap .col-1 .row-2 .wrap-contact .description ul li a {
+  color: #fcfcfc;
+  opacity: 0.8;
+}
+.main .wrap .col-1 .row-2 .wrap-contact .description ul li .material-symbols-outlined {
+  margin-right: 20px;
+  color: #fcfcfc;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.main .wrap .col-1 .row-2 .wrap-tech-skills,
+.main .wrap .col-1 .row-2 .wrap-soft-skills,
+.main .wrap .col-1 .row-2 .wrap-language-skills {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.main .wrap .col-1 .row-2 .wrap-tech-skills .title,
+.main .wrap .col-1 .row-2 .wrap-soft-skills .title,
+.main .wrap .col-1 .row-2 .wrap-language-skills .title {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  color: #fcfcfc;
+  padding: 10px;
+  border-bottom: 2px solid #fcfcfc;
+  letter-spacing: 3px;
+}
+.main .wrap .col-1 .row-2 .wrap-tech-skills .title .material-symbols-outlined,
+.main .wrap .col-1 .row-2 .wrap-soft-skills .title .material-symbols-outlined,
+.main .wrap .col-1 .row-2 .wrap-language-skills .title .material-symbols-outlined {
+  margin-right: 20px;
+  color: #59c7e8;
+  font-variation-settings: "FILL" 1, "wght" 800, "GRAD" 0, "opsz" 55;
+}
+.main .wrap .col-1 .row-2 .wrap-tech-skills .description,
+.main .wrap .col-1 .row-2 .wrap-soft-skills .description,
+.main .wrap .col-1 .row-2 .wrap-language-skills .description {
+  padding: 10px;
+}
+.main .wrap .col-1 .row-2 .wrap-tech-skills .description ul,
+.main .wrap .col-1 .row-2 .wrap-soft-skills .description ul,
+.main .wrap .col-1 .row-2 .wrap-language-skills .description ul {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #fcfcfc;
+  list-style: disc;
+  margin-left: 10px;
+}
+.main .wrap .col-1 .row-2 .wrap-tech-skills .description ul li,
+.main .wrap .col-1 .row-2 .wrap-soft-skills .description ul li,
+.main .wrap .col-1 .row-2 .wrap-language-skills .description ul li {
+  padding: 10px;
 }
 .main .wrap .col-2 {
   width: 70%;
