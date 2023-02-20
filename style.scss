@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+// font-family: 'Poppins', sans-serif;
+
 .main {
     max-width: 1440px;
     height: max-content;
     padding: 15px 30px 15px 30px;
+    font-family: 'Poppins', sans-serif;
 
     .wrap {
         max-width: 1000px;
@@ -20,6 +25,28 @@
                 height: 25%;
                 background-color: #59c7e8;
                 border-top-left-radius: 18px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                .my-photo {
+                    width: 175px;
+                    height: 175px;
+                    background-color: #fcfcfc;
+                    border-radius: 50%;
+                }
+
+                .name-proffesion {
+                    h1 {
+                        font-size: 32px;
+                    }
+
+                    p {
+                        text-align: center;
+                        font-size: 18px;
+                    }
+                }
             }
 
             .row-2 {
