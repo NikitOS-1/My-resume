@@ -211,4 +211,29 @@
 .main .wrap .col-2 .row-1 .description a {
   color: #3f4442;
   opacity: 0.7;
+}
+
+@media (max-width: 699px) {
+  .main .wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .wrap .col-1 {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+  }
+  .main .wrap .col-1 .row-1 {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  .main .wrap .col-1 .row-2 {
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+  }
+  .main .wrap .col-2 {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
