@@ -16,7 +16,7 @@
   border-radius: 20px;
 }
 .main .wrap .col-1 {
-  width: 35%;
+  width: 50%;
   height: 100%;
 }
 .main .wrap .col-1 .row-1 {
@@ -27,13 +27,17 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .main .wrap .col-1 .row-1 .my-photo {
+  margin: 15px 0px;
   width: 175px;
   height: 175px;
   background-color: #fcfcfc;
   border-radius: 50%;
+}
+.main .wrap .col-1 .row-1 .name-proffesion {
+  margin: 15px 0px;
 }
 .main .wrap .col-1 .row-1 .name-proffesion h1 {
   font-weight: 800;
