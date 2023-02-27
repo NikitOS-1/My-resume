@@ -29,11 +29,13 @@
                 justify-content: space-around;
 
                 .my-photo {
-                    margin: 15px 0px;
-                    width: 175px;
-                    height: 175px;
-                    background-color: #fcfcfc;
-                    border-radius: 50%;
+                    img {
+                        margin: 15px 0px;
+                        width: 200px;
+                        // height: 175px;
+                        // background-color: #fcfcfc;
+                        border-radius: 50%;
+                    }
                 }
 
                 .name-proffesion {

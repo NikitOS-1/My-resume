@@ -27,11 +27,9 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.main .wrap .col-1 .row-1 .my-photo {
+.main .wrap .col-1 .row-1 .my-photo img {
   margin: 15px 0px;
-  width: 175px;
-  height: 175px;
-  background-color: #fcfcfc;
+  width: 200px;
   border-radius: 50%;
 }
 .main .wrap .col-1 .row-1 .name-proffesion {
