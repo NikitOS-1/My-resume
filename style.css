@@ -27,6 +27,15 @@
   flex-direction: column;
   justify-content: space-around;
 }
+.main .wrap .col-1 .row-1 .my-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 220px;
+  border-radius: 50%;
+  background-color: #f3f3f5;
+}
 .main .wrap .col-1 .row-1 .my-photo img {
   margin: 15px 0px;
   width: 200px;

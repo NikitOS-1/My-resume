@@ -29,11 +29,20 @@
                 justify-content: space-around;
 
                 .my-photo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 5px;
+                    width: 220px;
+                    border-radius: 50%;
+                    background-color: #f3f3f5;
+
                     img {
+
                         margin: 15px 0px;
+
                         width: 200px;
                         // height: 175px;
-                        // background-color: #fcfcfc;
                         border-radius: 50%;
                     }
                 }
