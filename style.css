@@ -31,14 +31,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
-  width: 220px;
+  width: 280px;
   border-radius: 50%;
   background-color: #f3f3f5;
 }
 .main .wrap .col-1 .row-1 .my-photo img {
   margin: 15px 0px;
-  width: 200px;
+  width: 250px;
   border-radius: 50%;
 }
 .main .wrap .col-1 .row-1 .name-proffesion {
