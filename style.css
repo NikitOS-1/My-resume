@@ -219,6 +219,11 @@
   opacity: 0.7;
 }
 
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
 @media (max-width: 701px) {
   .main .wrap {
     display: flex;
